@@ -1,0 +1,952 @@
+/* MEDIA QUERY */
+
+
+/*---------- XS -------------- XS --------------- XS --------------- XS ------------------- XS --------- */
+
+@media(min-width: 320px) and (max-width: 767px) {
+    /*myNavbar Start */
+    .largeLogo {
+        display: none;
+    }
+    .mobileLogo {
+        display: inline;
+    }
+    .mobileLogo img {
+        width: 68%;
+    }
+    .navbar-toggler {}
+    .myNavbar .btn-info {
+        right: 78px;
+        font-size: 13px;
+        padding: 8px 17px;
+        top: 28px;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        outline: none;
+    }
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url(../img/toggle.png);
+    }
+    .navbar-dark .navbar-nav li {
+        padding-top: 10px;
+        line-height: 15px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-weight: 500;
+    }
+    .bg-dark {
+        height: auto;
+        padding-top: 27px;
+        padding-bottom: 20px;
+    }
+    /*myNavbar End */
+    /*forkApp section Start */
+    .forkApp {
+        height: 760px;
+        background-image: url(../img/laptop.png);
+    }
+    .forkApp .forkAppContent {}
+    .forkApp .forkAppContent h1 {
+        font-size: 52px;
+        padding-top: 80px;
+    }
+    .forkApp .forkAppContent p.laptop {
+        display: none;
+    }
+    .forkApp .forkAppContent p.mobile {
+        display: block;
+        color: #8d81ac;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 10px 0px;
+    }
+    .forkApp .forkAppContent span {
+        font-size: 13px;
+    }
+    .forkApp .forkAppContent .btn-info {
+        font-size: 10px;
+        bottom: -410px;
+        left: 34px;
+    }
+    .forkApp .forkAppContent span.period {
+        bottom: -445px;
+        left: 65px;
+        font-size: 11px;
+    }
+    /*forkApp section  End */
+    /*editor section  Start */
+    .editor{
+    	padding-top: 80px;
+    }
+    .editor .content h2 {
+        font-size: 32px;
+    }
+    .editor .content p {
+        font-size: 10px;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: 0px;
+    }
+    .editor .input-group {}
+    .editor .input-group-prepend {}
+    .editor .input-group>.custom-file,
+    .input-group>.custom-select,
+    .input-group>.form-control {
+        font-size: 10px;
+        padding: 0;
+        width: 30px;
+    }
+    .editor .input-group-prepend .btn {
+        font-size: 10px;
+    }
+    .editor .input-group-prepend .btn i {
+        padding-right: 3px;
+    }
+    /* editor section  End */
+    /*coding section  Start */
+    .coding {
+        padding: 45px 0 340px 0;
+        height: auto;
+    }
+    .coding .features {}
+    .coding .features .media {}
+    .coding .features .media img {
+        width: 64px;
+        margin-right: 5px !important;
+    }
+    .coding .features .media h5 {
+        font-size: 13px;
+    }
+    .coding .features .media p {
+        font-size: 12px;
+        padding: 10px 0px 30px 0;
+    }
+    .coding .codeImg {
+        position: relative;
+    }
+    .coding .codeImg h2.laptop {
+        display: none;
+    }
+    .coding h2.mobile {
+        display: block;
+        color: #8d81ac;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    .coding .codeImg img.laptop {
+        display: none;
+    }
+    .coding .codeImg img.mobile {
+        display: inline;
+        position: absolute;
+        right: -14px;
+        top: 0px;
+        max-width: 100%;
+    }
+    /*coding section  End */
+    /*members section  start */
+    .members {
+        height: auto;
+        padding-top: 160px;
+        padding-bottom: 40px;
+    }
+    .members .media {}
+    .members img {
+        margin-left: 30px;
+    }
+    .members h2 {
+        font-size: 20px;
+    }
+    .members span.title {
+        /* font-size: 14px; */
+    }
+    .members span {
+        font-size: 15px;
+    }
+    .members p {
+        padding: 15px 15px;
+        font-size: 15px;
+    }
+    .members p span {
+        font-size: 16px;
+    }
+    .members .owl-nav {}
+    .members .owl-carousel {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: none;
+    }
+    .members .owl-carousel .owl-nav .owl-prev span {
+        left: 0;
+        top: -97px;
+        font-size: 30px;
+    }
+    .members .owl-carousel .owl-nav .owl-next span {
+        right: 0;
+        top: -97px;
+        font-size: 30px;
+    }
+    .members .btn {
+        margin-right: 0;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .members .btn:last-child {}
+    .members .btn-light {}
+    .members .btn-info {}
+    .members .btn-primary {}
+    .members .btn i {}
+    /*members section  End */
+    /*about section  Start */
+    .about {
+        background-image: url(../img/about-backgroundMobile.png);
+        background-repeat: no-repeat;
+    }
+    .about h2 {
+        padding-bottom: 50px;
+    }
+    .about p {
+        padding-bottom: 50px;
+    }
+    .about .border {
+        margin: 0px 15%;
+    }
+    /*about section  End */
+    /*pricing section  Start */
+    .pricing {
+        background-image: url(../img/price-backgroundMobile.png);
+    }
+    .pricing h2 {
+        text-transform: none;
+        font-size: 30px;
+    }
+    .pricing .priceBox {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+    }
+    .pricing .priceBox h3 {}
+    .pricing .priceBox p.price {}
+    .pricing .priceBox span {}
+    .pricing .priceBox div.border {}
+    .pricing .priceBox p {}
+    .pricing .priceBox a.btn-info {
+        left: 37px;
+    }
+    .pricing .priceBox a.btn-info:hover {}
+    .pricing p.last {
+        padding: 5px 20px 40px 20px;
+    }
+    /*pricing section  End */
+    /*subscribe section  start */
+    .subscribe {}
+    .subscribe h2.laptop {
+        display: none;
+    }
+    .subscribe h2.mobile {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+        color: #323232;
+    }
+    .subscribe .form-control-plaintext {
+        width: 180px;
+        height: 35px;
+        margin-top: 20px;
+        margin-right: 15px;
+        font-size: 13px;
+    }
+    .subscribe .btn-primary {
+        width: 95px;
+        height: 35px;
+        padding: 0;
+        margin-top: 12px;
+        font-size: 11px;
+    }
+    /*subscribe section  End */
+    /*info section  start */
+    .info {
+        padding: 10px 10px 10px 10px;
+    }
+    .info h2 {
+        padding-top: 50px;
+        font-size: 26px;
+    }
+    .info h3 {}
+    .info .release h3 {}
+    .info p {}
+    .info .btn {}
+    .info div.border {}
+    /*info section  End */
+    /*footer section  Start */
+    .footer {
+        padding: 30px 10px;
+    }
+    .footer img {}
+    .footer h2 {
+    	padding-top: 35px;
+    }
+    .footer h2.address {}
+    .footer h3 {}
+    .footer p {}
+    .footer ul {}
+    .footer ul li {}
+    .footer ul li a {}
+    /*footer section  End */
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 360px) and (max-width: 767px) {
+	.forkApp .forkAppContent .btn-info{
+		left: 53px;
+	}
+	.forkApp .forkAppContent span.period{
+		left: 83px;
+	}
+
+	.editor .content p{
+		font-size: 13px;
+	}
+	.editor .input-group-prepend .btn{
+		font-size: 13px;
+	}
+
+	.about h2{
+		font-size: 40px;
+	}
+
+	.subscribe .form-control-plaintext{
+		margin-right: 25px;
+	}
+	
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 375px) and (max-width: 767px) {
+	.pricing .priceBox a.btn-info{
+		left: 57px;
+	}
+	.subscribe .form-control-plaintext{
+		width: 200px;
+	}
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 411px) and (max-width: 767px) {
+		.forkApp .forkAppContent .btn-info{
+			left: 85px;
+		}
+		.forkApp .forkAppContent span.period{
+			left: 112px;
+		}
+
+		.subscribe .form-control-plaintext{
+			width: 220px;
+		}
+		.subscribe .btn-primary{
+			width: 120px;
+		}
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 414px) and (max-width: 767px) {
+
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 568px) and (max-width: 767px) {
+	.myNavbar .btn-info {
+	    right: 78px;
+	    font-size: 14px;
+	    padding: 10px 25px;
+	    top: 23px;
+	}
+	.mobileLogo img {
+	    width: auto;
+	}
+
+	.forkApp .forkAppContent span.period {
+	    left: 177px;
+	    bottom: -490px;
+	    font-size: 12px;
+	}
+	.forkApp .forkAppContent .btn-info {
+	    left: 136px;
+	    font-size: 13px;
+	    bottom: -440px;
+	}
+
+	.editor .content p {
+	    font-size: 15px;
+	}
+
+	.editor .input-group-prepend .btn {
+	    font-size: 15px;
+	}
+
+	.editor .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control {
+	    font-size: 13px;
+	    padding: 4px;
+	    width: 38px;
+	}
+
+	.editor .input-group {
+	    margin-right: 10px;
+	}
+
+	.coding {
+	    padding: 45px 0 540px 0;
+
+	}
+	.members img {
+	    margin-left: 85px;
+	}
+	.members p {
+	    padding: 15px 35px;
+	    font-size: 17px;
+	}
+
+	.members h2 {
+	    font-size: 23px;
+	    padding-left: 30px;
+	}
+
+	.members span.title {
+	    font-size: 15px;
+	    padding-left: 35px;
+	}
+
+	.members p span {
+	    font-size: 17px;
+	    padding: 0;
+	}
+	.members .owl-carousel .owl-nav .owl-next span,
+	.members .owl-carousel .owl-nav .owl-prev span {
+	    top: -123px;
+	    font-size: 37px;
+	    padding: 0;
+	}
+
+	.about h2 {
+	    font-size: 33px;
+	}
+
+	.pricing .priceBox a.btn-info {
+    	left: 130px;
+	}
+
+	.subscribe .form-control-plaintext {
+	    width: 340px;
+	    margin-left: 25px;
+	}
+
+	.subscribe .btn-primary {
+	    width: 130px;
+	}
+}
+/* ------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------ */
+
+@media(min-width: 640px) and (max-width: 767px) {
+	.myNavbar .btn-info{
+		top: 30px;
+		right: 90px;
+	}
+	.forkApp .forkAppContent .btn-info{
+		left: 120px;
+	}
+
+	.forkApp .forkAppContent span.period {
+	    left: 161px;
+	}
+	.editor .input-group {
+	    margin-right: 40px;
+	}
+
+	.about h2 {
+	    font-size: 31px;
+	}
+
+	.subscribe .form-control-plaintext {
+	    margin-left: 10px;
+	}
+	.subscribe .btn-primary{
+		margin-top: 25px;
+	}
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 667px) and (max-width: 767px) {
+
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 731px) and (max-width: 767px) {
+
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 736px) and (max-width: 767px) {}
+
+
+/* ----- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD ----*/
+
+@media(max-width: 991px) and (min-width: 768px) {
+
+
+/* myNavbar Start */
+
+.myNavbar {
+}
+
+.mobileLogo {
+    display: block;
+}
+
+.myNavbar .btn-info {
+
+}
+
+
+
+.navbar {}
+
+.navbar-dark .navbar-nav li {
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+}
+
+.bg-dark {
+
+}
+
+
+/*myNavbar End */
+
+
+/*forkApp section Start */
+
+.forkApp {
+
+}
+
+.forkApp .forkAppContent {
+}
+
+.forkApp .forkAppContent h1 {
+
+padding-top: 60px;
+}
+
+.forkApp .forkAppContent p.laptop {
+	display: none;
+}
+
+.forkApp .forkAppContent p.mobile {
+    display: block;
+    color: #8d81ac;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 15px 0 10px 0;}
+
+.forkApp .forkAppContent span {
+
+}
+
+.forkApp .forkAppContent .btn-info {
+
+bottom: -527px;
+
+left: 197px;
+}
+
+
+.forkApp .forkAppContent span.period {
+
+left: 240px;
+}
+
+
+/*forkApp section  End */
+
+
+/*editor section  start */
+
+.editor {
+
+}
+
+.editor .content {}
+
+.editor .content h2 {
+
+}
+
+.editor .content p {
+
+}
+
+.editor .input-group {
+
+}
+
+.editor .input-group-prepend {
+
+}
+
+.editor .input-group>.custom-file,
+.input-group>.custom-select,
+.input-group>.form-control {
+
+}
+
+
+
+.editor .input-group-prepend .btn {
+}
+
+.editor .input-group-prepend .btn i {
+}
+
+
+/* editor section  End */
+
+
+/*coding section  Start */
+
+.coding {
+
+padding: 100px 0 550px 0;
+}
+
+.coding .features {}
+
+.coding .features .media {}
+
+.coding .features .media h5 {
+
+}
+
+.coding .features .media p {
+
+}
+
+.coding .codeImg {
+}
+
+.coding .codeImg h2.laptop {
+display: none;
+
+}
+
+.coding h2.mobile {
+    display: block;
+}
+
+.coding .codeImg img.laptop {
+	display: none;
+}
+
+.coding .codeImg img.mobile {
+    display: inline;
+    position: absolute;
+    right: -37px;
+    top: 0px;
+    }
+
+
+/*coding section  End */
+
+
+/*members section  start */
+
+.members {
+
+height: auto;
+
+padding-top: 100px;
+
+padding-bottom: 60px;
+}
+
+.members .media {
+}
+
+.members img {
+
+margin-left: 142px;
+}
+
+.members h2 {
+
+font-size: 40px;
+}
+
+.members span.title {font-size: 25px;}
+
+.members span {font-size: 25px;}
+
+.members p {
+
+padding: 40px 20px;
+
+font-size: 30px;
+}
+
+.members p span {
+
+font-size: 30px;
+}
+
+.members .owl-nav {
+}
+
+.members .owl-carousel {
+
+padding-bottom: 10px;
+}
+
+.members .owl-carousel .owl-nav .owl-prev span {
+
+}
+
+.members .owl-carousel .owl-nav .owl-next span {
+
+}
+
+.members .btn {margin: 0;height: 70px;width: 60%;text-align: center;padding: 0;font-size: 30px;margin-top: 30px;margin-bottom: 15px;}
+
+.members .btn:last-child {
+}
+
+.members .btn-light {
+    /* width: 250px; */
+}
+
+.members .btn-info {}
+
+.members .btn-primary {}
+
+.members .btn i {padding-right: 20px;}
+
+.members .row span{
+
+font-size: 20px;
+}
+
+
+/*members section  End */
+
+
+/*about section  Start */
+
+.about {
+
+}
+
+.about h2 {
+	font-size: 40px;
+}
+
+.about p {
+
+font-size: 20px;
+
+padding: 30px 0 90px 0;
+
+font-weight: 400;
+}
+
+.about .border {
+
+}
+
+
+/*about section  End */
+
+
+/*pricing section  Start */
+
+.pricing {
+
+}
+
+.pricing h2 {
+
+}
+
+.pricing .priceBox {
+
+}
+
+.pricing .priceBox h3 {
+
+}
+
+.pricing .priceBox p.price {
+
+}
+
+.pricing .priceBox span {
+
+}
+
+.pricing .priceBox div.border {
+
+}
+
+.pricing .priceBox p {
+
+}
+
+.pricing .priceBox a.btn-info {
+	left: 90px;
+	bottom: 30px;
+}
+
+
+.pricing p.last {
+    font-size: 24px;
+    padding: 0px 20px 70px 0;
+}
+
+
+/*pricing section  End */
+
+/*subscribe section  start */
+.subscribe{
+
+}
+.subscribe h2.laptop{
+	display: none;
+}
+.subscribe h2.mobile{
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 35px;
+	padding-top: 14px;
+}
+
+.subscribe .form-control-plaintext{
+
+width: 340px;
+
+font-size: 21px;
+
+height: 50px;
+
+margin: 0;
+}
+
+.subscribe .btn-primary{
+
+width: 340px;
+
+height: 50px;
+
+font-size: 20px;
+
+margin: 20px 0 0 0;
+}
+
+
+/*subscribe section  End */
+
+/*info section  start */
+.info{
+}
+
+.info h2{
+
+}
+
+.info h3{
+
+}
+.info .release h3{
+
+}
+
+.info p{
+
+}
+
+.info .btn{
+
+
+}
+
+.info div.border{
+
+}
+/*info section  End */
+
+/*footer section  Start */
+
+.footer{
+}
+
+.footer img{
+}
+.footer h2{
+    padding-top: 40px;
+
+}
+
+.footer h2.address{
+}
+
+.footer h3{
+
+}
+
+.footer p{
+
+}
+
+.footer ul{
+
+}
+.footer ul li{
+
+}
+
+.footer ul li a{
+
+}
+
+
+/*footer section  End */
+
+}
+
+
+/* ---- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG -------- LG ------- */
+
+@media(min-width: 1024px) and (max-width: 1366px) {}
+
+
+/* ------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ---- */
+
+@media(min-width: 1366px) and (max-width: 1367px) {}
